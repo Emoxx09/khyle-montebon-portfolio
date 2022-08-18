@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { ChakraProvider, Tabs, TabList, Tab } from '@chakra-ui/react'
+import { Flex, Tab, Tabs } from '@chakra-ui/react';
 
 export const Container = styled.div`
   position: relative;
@@ -8,24 +8,20 @@ export const Container = styled.div`
   width: 100%;
 `;
 
-export const StyledNavbar = styled.div`
-    padding: 4rem;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: center;
+export const StyledNavbar = styled(Flex)`
+  padding: 2rem;
 `;
 
 export const StyledImage = styled.img`
-    height: 7rem;
-    margin: 0px 0px 0px;
-`;
-
-export const StyledTabs = styled(Tabs)`
-
+  height: 7rem;
+  margin: 0px 0px 0px;
 `;
 
 export const StyledTab = styled(Tab)`
-    font-family: 'Century Gothic';
-    font-weight: 500;
+  font-family: 'Century Gothic';
+  font-weight: 500;
+`;
+
+export const StyledTabs = styled(Tabs)`
+  align-items: center;
 `;
