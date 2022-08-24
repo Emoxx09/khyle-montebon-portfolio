@@ -7,20 +7,22 @@ import * as S from './styles';
 function Navbar() {
   return (
     <>
-      <ChakraProvider>
-        <S.StyledNavbar>
-          <S.StyledImage src="/personalLogo.png" />
-          <Spacer />
-          <S.StyledTabs size="lg" variant="unstyled">
-            <TabList>
-              <S.StyledTab>HOME</S.StyledTab>
-              <S.StyledTab>ABOUT</S.StyledTab>
-              <S.StyledTab>PROJECTS</S.StyledTab>
-              <S.StyledTab>CONTACT</S.StyledTab>
-            </TabList>
-          </S.StyledTabs>
-        </S.StyledNavbar>
-      </ChakraProvider>
+      <S.StyledNavbar>
+        <ChakraProvider>
+          <S.NavContainer>
+            <S.StyledImage src="/personalLogo.png" />
+            <Spacer />
+            <S.StyledTabs size="lg" variant="unstyled">
+              <TabList>
+                <S.StyledTab>HOME</S.StyledTab>
+                <S.StyledTab>ABOUT</S.StyledTab>
+                <S.StyledTab>PROJECTS</S.StyledTab>
+                <S.StyledTab>CONTACT</S.StyledTab>
+              </TabList>
+            </S.StyledTabs>
+          </S.NavContainer>
+        </ChakraProvider>
+      </S.StyledNavbar>
     </>
   );
 }

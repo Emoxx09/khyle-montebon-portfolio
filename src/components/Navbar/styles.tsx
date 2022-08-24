@@ -8,7 +8,13 @@ export const Container = styled.div`
   width: 100%;
 `;
 
-export const StyledNavbar = styled(Flex)`
+export const StyledNavbar = styled.nav`
+  padding: 2rem;
+  position: sticky;
+  top: 0px;
+`;
+
+export const NavContainer = styled(Flex)`
   padding: 2rem;
 `;
 
