@@ -6,14 +6,14 @@ import './App.css';
 
 import Navbar from './components/Navbar/index';
 import Henlo from './components/Henlo';
+import About from './components/About/index';
 
 function App() {
   return (
     <div>
       <StyledNavbar />
-      <div>
-        <Henlo />
-      </div>
+      <About />
+      <Henlo />
     </div>
   );
 }
