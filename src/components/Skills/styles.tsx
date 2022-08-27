@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
+import '@fontsource/montserrat';
+
 import { Box, Flex, Image, Tab, Tabs, Text } from '@chakra-ui/react';
 
 export const SkillsContainer = styled(Flex)`
   position: relative;
-  padding: 100px;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
   flex-wrap: wrap;
   align-items: center;
 `;
@@ -32,12 +36,12 @@ export const IconContainer = styled.div`
 `;
 
 export const Title = styled(Text)`
-  font-family: 'Century Gothic';
+  font-family: 'Montserrat';
   font-size: 49px;
 `;
 
 export const Subtitle = styled(Text)`
-  font-family: 'Century Gothic';
+  font-family: 'Montserrat';
   font-size: 16px;
   color: #525252;
   max-width: 850px;

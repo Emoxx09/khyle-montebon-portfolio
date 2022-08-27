@@ -33,7 +33,7 @@ function Skills() {
       <S.SkillsContainer>
         <ChakraProvider>
           <S.Container>
-            <S.Title>SKILLS</S.Title>
+            <S.Title as="b">SKILLS</S.Title>
             <S.Subtitle>
               I’ve had experience in the domains of web development, mobile
               development, and machine learning. To add, I’ve dabbled on some

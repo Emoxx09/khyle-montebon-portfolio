@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import '@fontsource/montserrat';
+
 import { Flex, Tab, Tabs } from '@chakra-ui/react';
 
 export const Container = styled.div`
@@ -11,6 +13,8 @@ export const Container = styled.div`
 export const StyledNavbar = styled.nav`
   position: sticky;
   top: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
 `;
 
 export const NavContainer = styled(Flex)`
@@ -25,8 +29,8 @@ export const StyledImage = styled.img`
 `;
 
 export const StyledTab = styled(Tab)`
-  font-family: 'Century Gothic';
-  font-weight: 500;
+  font-family: 'Montserrat';
+  font-weight: 700;
 `;
 
 export const StyledTabs = styled(Tabs)`
