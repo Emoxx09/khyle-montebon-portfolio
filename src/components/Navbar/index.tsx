@@ -15,8 +15,8 @@ function Navbar() {
             <S.StyledTabs size="lg" variant="unstyled">
               <TabList>
                 <S.StyledTab>HOME</S.StyledTab>
-                <S.StyledTab>SKILLS</S.StyledTab>
                 <S.StyledTab>ABOUT</S.StyledTab>
+                <S.StyledTab>SKILLS</S.StyledTab>
                 <S.StyledTab>PROJECTS</S.StyledTab>
                 <S.StyledTab>CONTACT</S.StyledTab>
               </TabList>
