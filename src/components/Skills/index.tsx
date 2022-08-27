@@ -11,6 +11,10 @@ import {
   SiFirebase,
   SiPython,
   SiTensorflow,
+  SiGmail,
+  SiFacebook,
+  SiLinkedin,
+  SiGithub,
 } from 'react-icons/si';
 
 import {

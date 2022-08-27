@@ -4,7 +4,7 @@ import '@fontsource/montserrat';
 
 import { Box, Flex, Image, Tab, Tabs, Text } from '@chakra-ui/react';
 
-export const SkillsContainer = styled(Flex)`
+export const ProjectsContainer = styled(Flex)`
   position: relative;
   padding-top: 100px;
   padding-left: 200px;
@@ -26,13 +26,35 @@ export const Skills = styled.div`
   place-content: center;
 `;
 
-export const ImageContainer = styled.div`
+export const ProjectContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+`;
+
+export const ProjectImageContainer = styled.div`
   flex-basis: 50%;
-  text-align: -webkit-right;
+  text-align: -webkit-center;
+`;
+
+export const ProjectDescriptionContainer = styled.div`
+  margin-left: 50px;
+  flex-basis: 40%;
+`;
+
+export const TechContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+export const StyledImage = styled(Image)`
+  border-radius: 3%;
+  min-width: 90%;
 `;
 
 export const IconContainer = styled.div`
-  padding: 40px;
+  padding: 10px;
 `;
 
 export const Title = styled(Text)`
@@ -40,9 +62,14 @@ export const Title = styled(Text)`
   font-size: 49px;
 `;
 
+export const ProjectTitle = styled(Text)`
+  font-family: 'Montserrat';
+  font-size: 33px;
+`;
+
 export const Subtitle = styled(Text)`
   font-family: 'Montserrat';
   font-size: 16px;
   color: #525252;
-  max-width: 750px;
+  max-width: 600px;
 `;
