@@ -21,12 +21,11 @@ export const Container = styled.div`
 
 export const ImageContainer = styled.div`
   flex-basis: 50%;
-  text-align: -webkit-right;
+  text-align: -webkit-center;
 `;
 
 export const StyledImage = styled(Image)`
-  border-radius: 40%;
-  width: 60%;
+  width: 70%;
 `;
 
 export const Title = styled(Text)`

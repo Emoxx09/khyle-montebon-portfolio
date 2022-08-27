@@ -31,7 +31,7 @@ function About() {
             </S.Subtitle>
           </S.Container>
           <S.ImageContainer>
-            <S.StyledImage src="/profilePic.jpg" alt="Khyle Montebon" />
+            <S.StyledImage src="/profilePic.png" alt="Khyle Montebon" />
           </S.ImageContainer>
         </ChakraProvider>
       </S.AboutContainer>
