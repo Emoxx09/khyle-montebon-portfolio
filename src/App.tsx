@@ -9,6 +9,7 @@ import Henlo from './components/Henlo';
 import About from './components/About/index';
 import Skills from './components/Skills/index';
 import Projects from './components/Projects/index';
+import Contact from './components/Contact/index';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
