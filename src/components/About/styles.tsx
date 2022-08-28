@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import '@fontsource/montserrat';
 
-import { Box, Flex, Image, Tab, Tabs, Text } from '@chakra-ui/react';
+import { Flex, Image, Text } from '@chakra-ui/react';
 
 export const AboutContainer = styled(Flex)`
   display: flex;

@@ -4,12 +4,6 @@ import '@fontsource/montserrat';
 
 import { Flex, Tab, Tabs } from '@chakra-ui/react';
 
-export const Container = styled.div`
-  position: relative;
-  height: 100%;
-  width: 100%;
-`;
-
 export const StyledNavbar = styled.nav`
   position: sticky;
   top: 0px;

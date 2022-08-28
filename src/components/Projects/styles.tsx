@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import '@fontsource/montserrat';
 
-import { Box, Flex, Image, Tab, Tabs, Text } from '@chakra-ui/react';
+import { Flex, Image, Text } from '@chakra-ui/react';
 
 export const ProjectsContainer = styled(Flex)`
   position: relative;
@@ -11,19 +11,6 @@ export const ProjectsContainer = styled(Flex)`
   padding-right: 200px;
   flex-wrap: wrap;
   align-items: center;
-`;
-
-export const Container = styled.div`
-  display: table;
-`;
-
-export const Skills = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px;
-  width: 1000px;
-  margin: 0 auto;
-  place-content: center;
 `;
 
 export const ProjectContainer = styled.div`

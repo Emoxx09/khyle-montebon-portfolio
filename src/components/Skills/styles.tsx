@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import '@fontsource/montserrat';
 
-import { Box, Flex, Image, Tab, Tabs, Text } from '@chakra-ui/react';
+import { Flex, Text } from '@chakra-ui/react';
 
 export const SkillsContainer = styled(Flex)`
   position: relative;

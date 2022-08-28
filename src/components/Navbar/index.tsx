@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Flex, ChakraProvider, Spacer, Tabs, TabList } from '@chakra-ui/react';
+import { ChakraProvider, Spacer, TabList } from '@chakra-ui/react';
 
 import * as S from './styles';
 

@@ -18,42 +18,6 @@ export const Container = styled.div`
   flex-wrap: wrap;
 `;
 
-export const Skills = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px;
-  width: 1000px;
-  margin: 0 auto;
-  place-content: center;
-`;
-
-export const ProjectContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 50px;
-  padding-bottom: 50px;
-`;
-
-export const ProjectImageContainer = styled.div`
-  flex-basis: 50%;
-  text-align: -webkit-center;
-`;
-
-export const ProjectDescriptionContainer = styled.div`
-  margin-left: 50px;
-  flex-basis: 40%;
-`;
-
-export const TechContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
-
-export const StyledImage = styled(Image)`
-  border-radius: 3%;
-  min-width: 90%;
-`;
-
 export const IconContainer = styled.div`
   padding-top: 10px;
   padding-right: 10px;
@@ -63,11 +27,6 @@ export const IconContainer = styled.div`
 export const Title = styled(Text)`
   font-family: 'Montserrat';
   font-size: 49px;
-`;
-
-export const ProjectTitle = styled(Text)`
-  font-family: 'Montserrat';
-  font-size: 33px;
 `;
 
 export const Subtitle = styled(Text)`

@@ -11,23 +11,9 @@ import {
   SiFirebase,
   SiPython,
   SiTensorflow,
-  SiGmail,
-  SiFacebook,
-  SiLinkedin,
-  SiGithub,
 } from 'react-icons/si';
 
-import {
-  Flex,
-  ChakraProvider,
-  Spacer,
-  Stack,
-  Tabs,
-  TabList,
-  Text,
-  Box,
-  Image,
-} from '@chakra-ui/react';
+import { ChakraProvider } from '@chakra-ui/react';
 
 import * as S from './styles';
 
