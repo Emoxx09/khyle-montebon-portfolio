@@ -26,11 +26,6 @@ export const Skills = styled.div`
   place-content: center;
 `;
 
-export const ImageContainer = styled.div`
-  flex-basis: 50%;
-  text-align: -webkit-right;
-`;
-
 export const IconContainer = styled.div`
   padding: 40px;
 `;

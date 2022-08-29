@@ -7,6 +7,7 @@ import './App.css';
 import Navbar from './components/Navbar/index';
 import About from './components/About/index';
 import Skills from './components/Skills/index';
+import Work from './components/Work/index';
 import Projects from './components/Projects/index';
 import Contact from './components/Contact/index';
 
@@ -16,6 +17,7 @@ function App() {
       <StyledNavbar />
       <About />
       <Skills />
+      <Work />
       <Projects />
       <Contact />
     </div>
