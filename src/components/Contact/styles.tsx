@@ -9,6 +9,7 @@ export const ContactContainer = styled(Flex)`
   padding-top: 100px;
   padding-left: 200px;
   padding-right: 200px;
+  padding-bottom: 50px;
   flex-wrap: wrap;
   align-items: center;
 `;

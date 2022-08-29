@@ -12,9 +12,9 @@ function Contact() {
       <S.ContactContainer>
         <ChakraProvider>
           <S.Title as="b">CONTACT</S.Title>
+          <S.Subtitle>Want to get in contact with me?</S.Subtitle>
           <S.Subtitle>
-            Want to get in contact with me? Connect with me through the
-            following channels below!
+            Connect with me through the following channels below!
           </S.Subtitle>
           <S.Container>
             <S.IconContainer>
