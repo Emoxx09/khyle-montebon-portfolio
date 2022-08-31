@@ -9,6 +9,7 @@ export const StyledNavbar = styled.nav`
   top: 0px;
   padding-left: 100px;
   padding-right: 100px;
+  z-index: 1;
 `;
 
 export const NavContainer = styled(Flex)`
