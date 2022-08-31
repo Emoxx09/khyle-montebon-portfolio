@@ -9,7 +9,7 @@ import * as S from './styles';
 function Projects() {
   return (
     <>
-      <S.ProjectsContainer>
+      <S.ProjectsContainer id="Projects">
         <ChakraProvider>
           <S.Title as="b">PROJECTS</S.Title>
           <S.Subtitle>

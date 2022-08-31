@@ -20,7 +20,7 @@ import * as S from './styles';
 function Skills() {
   return (
     <>
-      <S.SkillsContainer>
+      <S.SkillsContainer id="Skills">
         <ChakraProvider>
           <S.Container>
             <S.Title as="b">SKILLS</S.Title>

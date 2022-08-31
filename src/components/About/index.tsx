@@ -7,7 +7,7 @@ import * as S from './styles';
 function About() {
   return (
     <>
-      <S.AboutContainer>
+      <S.AboutContainer id="Home">
         <ChakraProvider>
           <S.Container>
             <S.Subtitle>KHYLE AARON MONTEBON</S.Subtitle>

@@ -9,7 +9,7 @@ import * as S from './styles';
 function Contact() {
   return (
     <>
-      <S.ContactContainer>
+      <S.ContactContainer id="Contact">
         <ChakraProvider>
           <S.Title as="b">CONTACT</S.Title>
           <S.Subtitle>Want to get in contact with me?</S.Subtitle>

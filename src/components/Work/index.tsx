@@ -7,7 +7,7 @@ import * as S from './styles';
 function Work() {
   return (
     <>
-      <S.WorkContainer>
+      <S.WorkContainer id="Work">
         <ChakraProvider>
           <S.Container>
             <S.Title as="b">WORK</S.Title>
