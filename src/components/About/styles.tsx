@@ -6,8 +6,8 @@ import { Flex, Image, Text } from '@chakra-ui/react';
 
 export const AboutContainer = styled(Flex)`
   display: flex;
-  padding-left: 200px;
-  padding-right: 200px;
+  // padding-left: 200px;
+  // padding-right: 200px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -17,11 +17,31 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%;
+  padding-left: 50px;
+
+  @media only screen and (max-width: 1023px) {
+    visibility: shown;
+    flex-basis: 100%;
+    display: initial;
+    padding: 50px;
+  }
 `;
 
 export const ImageContainer = styled.div`
   flex-basis: 50%;
   text-align: -webkit-center;
+
+  @media only screen and (min-width: 1024px) {
+    visibility: shown;
+    flex-basis: 50%;
+    display: initial;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    visibility: hidden;
+    flex-basis: 0%;
+    display: none !important;
+  }
 `;
 
 export const StyledImage = styled(Image)`

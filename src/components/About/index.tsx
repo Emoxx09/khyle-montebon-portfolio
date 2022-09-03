@@ -11,7 +11,7 @@ function About() {
         <ChakraProvider>
           <S.Container>
             <S.Subtitle>KHYLE AARON MONTEBON</S.Subtitle>
-            <S.Title as="b">SOFTWARE ENGINEER EXTRAORDINAIRE</S.Title>
+            <S.Title as="b">SOFTWARE ENGINEER</S.Title>
             <S.Subtitle>
               I’m currently studying Computer Science at the University of the
               Immaculate Conception. I indulge in creating applications that
