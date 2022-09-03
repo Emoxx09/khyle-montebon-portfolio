@@ -10,6 +10,11 @@ export const StyledNavbar = styled.nav`
   // padding-left: 100px;
   // padding-right: 100px;
   z-index: 1;
+
+  @media only screen and (min-width: 770px) {
+    padding-left: 50px;
+    padding-right: 100px;
+  }
 `;
 
 export const NavContainer = styled(Flex)`

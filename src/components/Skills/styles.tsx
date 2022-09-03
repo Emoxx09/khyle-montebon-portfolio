@@ -11,6 +11,11 @@ export const SkillsContainer = styled(Flex)`
   padding-right: 200px;
   flex-wrap: wrap;
   align-items: center;
+
+  @media only screen and (max-width: 1023px) {
+    padding-left: 50px;
+    padding-right: 0px;
+  }
 `;
 
 export const Container = styled.div`
@@ -20,10 +25,21 @@ export const Container = styled.div`
 export const Skills = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
   width: 1000px;
   margin: 0 auto;
   place-content: center;
+
+  @media only screen and (max-width: 1440px) {
+    zoom: 0.6;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    zoom: 0.5;
+  }
+
+  @media only screen and (max-width: 425px) {
+    zoom: 0.3;
+  }
 `;
 
 export const IconContainer = styled.div`
