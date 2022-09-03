@@ -17,7 +17,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%;
-  padding-left: 50px;
+  padding-left: 200px;
 
   @media only screen and (max-width: 1023px) {
     visibility: shown;

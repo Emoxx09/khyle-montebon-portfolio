@@ -23,6 +23,11 @@ export const NavContainer = styled(Flex)`
 export const StyledImage = styled.img`
   height: 7rem;
   margin: 0px 10px 0px;
+  padding-left: 150px;
+
+  @media only screen and (max-width: 1023px) {
+    padding-left: 0px;
+  }
 `;
 
 export const StyledTab = styled(Tab)`
