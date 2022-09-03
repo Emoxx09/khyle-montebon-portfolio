@@ -2,7 +2,18 @@ import React from 'react';
 
 import { Link } from 'react-scroll';
 
-import { ChakraProvider, Spacer, TabList } from '@chakra-ui/react';
+import { GiHamburgerMenu } from 'react-icons/gi';
+
+import {
+  ChakraProvider,
+  IconButton,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
+  Spacer,
+  TabList,
+} from '@chakra-ui/react';
 
 import * as S from './styles';
 
@@ -62,6 +73,22 @@ function Navbar() {
                 </S.StyledTab>
               </TabList>
             </S.StyledTabs>
+            <Menu>
+              <S.StyledMenuButton
+                as={IconButton}
+                aria-label="Options"
+                icon={<GiHamburgerMenu />}
+                variant="outline"
+              />
+              <MenuList>
+                <MenuItem>HOME</MenuItem>
+                <MenuItem>ABOUT</MenuItem>
+                <MenuItem>SKILLS</MenuItem>
+                <MenuItem>WORK</MenuItem>
+                <MenuItem>PROJECTS</MenuItem>
+                <MenuItem>CONTACT</MenuItem>
+              </MenuList>
+            </Menu>
           </S.NavContainer>
         </ChakraProvider>
       </S.StyledNavbar>
