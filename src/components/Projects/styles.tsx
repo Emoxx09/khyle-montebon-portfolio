@@ -28,11 +28,20 @@ export const ProjectContainer = styled.div`
 export const ProjectImageContainer = styled.div`
   flex-basis: 50%;
   text-align: -webkit-center;
+
+  @media only screen and (max-width: 599px) {
+    flex-basis: 100%;
+  }
 `;
 
 export const ProjectDescriptionContainer = styled.div`
   margin-left: 50px;
   flex-basis: 40%;
+
+  @media only screen and (max-width: 599px) {
+    margin-left: 10px;
+    flex-basis: 100%;
+  }
 `;
 
 export const TechContainer = styled.div`
