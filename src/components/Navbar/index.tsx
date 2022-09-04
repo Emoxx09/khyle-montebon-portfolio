@@ -73,22 +73,51 @@ function Navbar() {
                 </S.StyledTab>
               </TabList>
             </S.StyledTabs>
-            <Menu>
-              <S.StyledMenuButton
-                as={IconButton}
-                aria-label="Options"
-                icon={<GiHamburgerMenu />}
-                variant="outline"
-              />
-              <MenuList>
-                <MenuItem>HOME</MenuItem>
-                <MenuItem>ABOUT</MenuItem>
-                <MenuItem>SKILLS</MenuItem>
-                <MenuItem>WORK</MenuItem>
-                <MenuItem>PROJECTS</MenuItem>
-                <MenuItem>CONTACT</MenuItem>
-              </MenuList>
-            </Menu>
+            <S.StyledMenuContainer>
+              <Menu>
+                <MenuButton
+                  as={IconButton}
+                  aria-label="Options"
+                  icon={<GiHamburgerMenu />}
+                  variant="outline"
+                />
+                <MenuList>
+                  <S.StyledMenuItem onClick={scroll.scrollToTop}>
+                    HOME
+                  </S.StyledMenuItem>
+                  <Link activeClass="active" to="Home" spy={true} smooth={true}>
+                    <S.StyledMenuItem>ABOUT</S.StyledMenuItem>
+                  </Link>
+                  <Link
+                    activeClass="active"
+                    to="Skills"
+                    spy={true}
+                    smooth={true}
+                  >
+                    <S.StyledMenuItem>SKILLS</S.StyledMenuItem>
+                  </Link>
+                  <Link activeClass="active" to="Work" spy={true} smooth={true}>
+                    <S.StyledMenuItem>WORK</S.StyledMenuItem>
+                  </Link>
+                  <Link
+                    activeClass="active"
+                    to="Projects"
+                    spy={true}
+                    smooth={true}
+                  >
+                    <S.StyledMenuItem>PROJECTS</S.StyledMenuItem>
+                  </Link>
+                  <Link
+                    activeClass="active"
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                  >
+                    <S.StyledMenuItem>CONTACT</S.StyledMenuItem>
+                  </Link>
+                </MenuList>
+              </Menu>
+            </S.StyledMenuContainer>
           </S.NavContainer>
         </ChakraProvider>
       </S.StyledNavbar>

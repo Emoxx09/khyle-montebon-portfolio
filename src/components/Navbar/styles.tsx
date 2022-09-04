@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import '@fontsource/montserrat';
 
-import { Flex, MenuButton, Tab, Tabs } from '@chakra-ui/react';
+import { Flex, MenuItem, Tab, Tabs } from '@chakra-ui/react';
 
 export const StyledNavbar = styled.nav`
   position: sticky;
@@ -56,7 +56,7 @@ export const StyledTabs = styled(Tabs)`
   align-items: center;
 `;
 
-export const StyledMenuButton = styled(MenuButton)`
+export const StyledMenuContainer = styled.div`
   visibility: shown;
   display: block;
 
@@ -69,4 +69,8 @@ export const StyledMenuButton = styled(MenuButton)`
     visibility: shown;
     // display: initial;
   }
+`;
+
+export const StyledMenuItem = styled(MenuItem)`
+  font-family: 'Montserrat';
 `;
