@@ -12,6 +12,11 @@ export const ContactContainer = styled(Flex)`
   padding-bottom: 50px;
   flex-wrap: wrap;
   align-items: center;
+
+  @media only screen and (max-width: 1023px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 `;
 
 export const Container = styled.div`
