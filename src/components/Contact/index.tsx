@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SiGmail, SiFacebook, SiLinkedin, SiGithub } from 'react-icons/si';
+import { SiGithub, SiGmail, SiLinkedin, SiTwitter } from 'react-icons/si';
 
 import { ChakraProvider } from '@chakra-ui/react';
 
@@ -20,21 +20,47 @@ function Contact() {
             <S.IconContainer>
               <SiGmail size={20} />
             </S.IconContainer>
-            <S.ChannelTitle>Gmail</S.ChannelTitle>
+            <S.ChannelTitle>
+              <a href="mailto:khyle.emox@gmail.com">Gmail</a>
+            </S.ChannelTitle>
             <S.IconContainer>
               <SiLinkedin size={20} />
             </S.IconContainer>
-            <S.ChannelTitle>Linkedin</S.ChannelTitle>
+            <S.ChannelTitle>
+              <a
+                href="https://www.linkedin.com/in/khyle-montebon-551583176/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Linkedin
+              </a>
+            </S.ChannelTitle>
           </S.Container>
           <S.Container>
             <S.IconContainer>
-              <SiFacebook size={20} />
+              <SiTwitter size={20} />
             </S.IconContainer>
-            <S.ChannelTitle>Facebook</S.ChannelTitle>
+            <S.ChannelTitle>
+              <a
+                href="https://twitter.com/aaron_khyle"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </S.ChannelTitle>
             <S.IconContainer>
               <SiGithub size={20} />
             </S.IconContainer>
-            <S.ChannelTitle>Github</S.ChannelTitle>
+            <S.ChannelTitle>
+              <a
+                href="https://github.com/Emoxx09"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </a>
+            </S.ChannelTitle>
           </S.Container>
         </ChakraProvider>
       </S.ContactContainer>
