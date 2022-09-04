@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { SiJavascript, SiTypescript, SiGooglecloud } from 'react-icons/si';
+import {
+  SiFirebase,
+  SiFlutter,
+  SiKotlin,
+  SiSqlite,
+  SiUnity,
+} from 'react-icons/si';
 
 import { ChakraProvider } from '@chakra-ui/react';
 
@@ -30,13 +36,10 @@ function Projects() {
               </S.Subtitle>
               <S.TechContainer>
                 <S.IconContainer>
-                  <SiJavascript size={30} />
+                  <SiFlutter size={30} />
                 </S.IconContainer>
                 <S.IconContainer>
-                  <SiTypescript size={30} />
-                </S.IconContainer>
-                <S.IconContainer>
-                  <SiGooglecloud size={30} />
+                  <SiSqlite size={30} />
                 </S.IconContainer>
               </S.TechContainer>
             </S.ProjectDescriptionContainer>
@@ -52,13 +55,7 @@ function Projects() {
               </S.Subtitle>
               <S.TechContainer>
                 <S.IconContainer>
-                  <SiJavascript size={30} />
-                </S.IconContainer>
-                <S.IconContainer>
-                  <SiTypescript size={30} />
-                </S.IconContainer>
-                <S.IconContainer>
-                  <SiGooglecloud size={30} />
+                  <SiUnity size={30} />
                 </S.IconContainer>
               </S.TechContainer>
             </S.ProjectDescriptionContainer>
@@ -80,13 +77,13 @@ function Projects() {
               </S.Subtitle>
               <S.TechContainer>
                 <S.IconContainer>
-                  <SiJavascript size={30} />
+                  <SiKotlin size={30} />
                 </S.IconContainer>
                 <S.IconContainer>
-                  <SiTypescript size={30} />
+                  <SiFirebase size={30} />
                 </S.IconContainer>
                 <S.IconContainer>
-                  <SiGooglecloud size={30} />
+                  <SiSqlite size={30} />
                 </S.IconContainer>
               </S.TechContainer>
             </S.ProjectDescriptionContainer>
