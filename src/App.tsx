@@ -28,7 +28,7 @@ function App() {
       {loading ? (
         <Loader>
           {' '}
-          <Image src="/loader.gif" />
+          <StyledImage src="/loader.gif" />
         </Loader>
       ) : (
         <div>
@@ -45,11 +45,22 @@ function App() {
 }
 
 const Loader = styled.div`
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   background-color: black;
-  height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+`;
+
+const StyledImage = styled(Image)`
+  @media only screen and (max-width: 1024px) {
+    zoom: 0.5;
+  }
 `;
 
 const StyledNavbar = styled(Navbar)`
