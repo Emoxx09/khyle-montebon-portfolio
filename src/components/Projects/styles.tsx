@@ -15,6 +15,7 @@ export const ProjectsContainer = styled(Flex)`
   @media only screen and (max-width: 1023px) {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 50px;
   }
 `;
 

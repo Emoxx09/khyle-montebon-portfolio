@@ -16,6 +16,7 @@ export const ContactContainer = styled(Flex)`
   @media only screen and (max-width: 1023px) {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 30px;
   }
 `;
 
