@@ -12,7 +12,7 @@ export const StyledNavbar = styled.nav`
   z-index: 1;
 
   @media only screen and (min-width: 770px) {
-    padding-left: 50px;
+    padding-left: 0px;
     padding-right: 100px;
   }
 `;

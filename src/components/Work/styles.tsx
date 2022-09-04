@@ -11,6 +11,11 @@ export const WorkContainer = styled(Flex)`
   padding-right: 200px;
   flex-wrap: wrap;
   align-items: center;
+
+  @media only screen and (max-width: 1023px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 `;
 
 export const Container = styled.div`
@@ -25,6 +30,14 @@ export const TypeContainer = styled.div`
   margin: 0 auto;
   background-color: #eeeeee;
   border-radius: 40px;
+
+  @media only screen and (max-width: 1023px) {
+    zoom: 0.7;
+  }
+
+  @media only screen and (max-width: 430px) {
+    zoom: 0.45;
+  }
 `;
 
 export const InnerContainer = styled.div`

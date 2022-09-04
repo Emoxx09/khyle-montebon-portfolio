@@ -14,7 +14,7 @@ export const SkillsContainer = styled(Flex)`
 
   @media only screen and (max-width: 1023px) {
     padding-left: 50px;
-    padding-right: 0px;
+    padding-right: 50px;
   }
 `;
 
