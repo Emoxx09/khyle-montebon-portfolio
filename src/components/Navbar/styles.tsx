@@ -23,6 +23,8 @@ export const NavContainer = styled(Flex)`
   // padding-right: 150px;
   place-content: space-between;
   align-items: center;
+
+  backdrop-filter: blur(3px);
 `;
 
 export const StyledImage = styled.img`
