@@ -51,7 +51,7 @@ export const TechContainer = styled.div`
 
 export const StyledImage = styled(Image)`
   border-radius: 3%;
-  min-width: 90%;
+  max-height: 500px;
 `;
 
 export const IconContainer = styled.div`

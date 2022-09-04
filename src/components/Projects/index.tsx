@@ -19,15 +19,14 @@ function Projects() {
           </S.Subtitle>
           <S.ProjectContainer>
             <S.ProjectImageContainer>
-              <S.StyledImage src="/projectImg.png" alt="Project" />
+              <S.StyledImage src="/project1.png" alt="iBudget" />
             </S.ProjectImageContainer>
             <S.ProjectDescriptionContainer>
-              <S.ProjectTitle as="b">Project Name</S.ProjectTitle>
+              <S.ProjectTitle as="b">iBudget</S.ProjectTitle>
               <S.Subtitle>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                iBudget is a financial management application made for students
+                to help them manage their spendings. It was built using Flutter
+                and SQLite.
               </S.Subtitle>
               <S.TechContainer>
                 <S.IconContainer>
@@ -44,12 +43,12 @@ function Projects() {
           </S.ProjectContainer>
           <S.ProjectContainer>
             <S.ProjectDescriptionContainer>
-              <S.ProjectTitle as="b">Project Name</S.ProjectTitle>
+              <S.ProjectTitle as="b">Super Ignacian</S.ProjectTitle>
               <S.Subtitle>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Super Ignacian is a 2D Platformer Game built around the idea of
+                a UIC student on his way to school. But there's a challenge; he
+                must avoid getting dirty along the way! This game was built with
+                Unity.
               </S.Subtitle>
               <S.TechContainer>
                 <S.IconContainer>
@@ -64,20 +63,20 @@ function Projects() {
               </S.TechContainer>
             </S.ProjectDescriptionContainer>
             <S.ProjectImageContainer>
-              <S.StyledImage src="/projectImg.png" alt="Project" />
+              <S.StyledImage src="/project2.png" alt="Super Ignacian" />
             </S.ProjectImageContainer>
           </S.ProjectContainer>
           <S.ProjectContainer>
             <S.ProjectImageContainer>
-              <S.StyledImage src="/projectImg.png" alt="Project" />
+              <S.StyledImage src="/project3.png" alt="VaxEx" />
             </S.ProjectImageContainer>
             <S.ProjectDescriptionContainer>
-              <S.ProjectTitle as="b">Project Name</S.ProjectTitle>
+              <S.ProjectTitle as="b">VaxEx</S.ProjectTitle>
               <S.Subtitle>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                A COVID vaccination reaction monitoring app built on Android
+                with Kotlin and also with Firebase and SQLite. It was made to
+                help help centers monitor the reactions of vaccine receivers
+                after they get vaccinated.
               </S.Subtitle>
               <S.TechContainer>
                 <S.IconContainer>
