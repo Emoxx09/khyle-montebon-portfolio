@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 import Navbar from './components/Navbar/index';
 import About from './components/About/index';
@@ -8,10 +8,6 @@ import Skills from './components/Skills/index';
 import Work from './components/Work/index';
 import Projects from './components/Projects/index';
 import Contact from './components/Contact/index';
-
-import loaderImage from './Images/loader.gif';
-
-import { Image } from '@chakra-ui/react';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -28,7 +24,8 @@ function App() {
       {loading ? (
         <Loader>
           {' '}
-          <StyledImage src="/loader.gif" />
+          <Logo src="/personalLogo.png" />
+          <WelcomeImg src="/welcome.png" />
         </Loader>
       ) : (
         <div>
@@ -57,9 +54,72 @@ const Loader = styled.div`
   align-items: center;
 `;
 
-const StyledImage = styled(Image)`
-  @media only screen and (max-width: 1024px) {
-    zoom: 0.5;
+const rotate = keyframes`
+  0% {
+  }
+  5% {
+      transform:  rotate(0deg);
+  }
+  20% {
+      transform:  rotate(130deg);
+  }
+  40% {
+      transform:  rotate(-360deg);
+  }
+  60% {
+      transform:  rotate(-720deg);
+  }
+  70% {
+    transform:  rotate(-720deg);
+  }
+  100% {
+      transform:  rotate(-720deg);
+  }
+`;
+
+const appearFade = keyframes`
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+`;
+
+const Logo = styled.img`
+  zoom: 50%;
+  animation: ${rotate} 6s linear 0s infinite normal none;
+
+  @media only screen and (max-width: 1440px) {
+    zoom: 30%;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    zoom: 20%;
+  }
+
+  @media only screen and (max-width: 424px) {
+    zoom: 10%;
+  }
+`;
+
+const WelcomeImg = styled.img`
+  zoom: 50%;
+  animation: ${appearFade} 6s linear 0s infinite normal none;
+
+  @media only screen and (max-width: 1440px) {
+    zoom: 30%;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    zoom: 20%;
+  }
+
+  @media only screen and (max-width: 424px) {
+    zoom: 10%;
   }
 `;
 
