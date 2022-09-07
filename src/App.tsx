@@ -28,18 +28,43 @@ function App() {
           <WelcomeImg src="/welcome.png" />
         </Loader>
       ) : (
-        <div>
+        <Container>
           <StyledNavbar />
           <About />
           <Skills />
           <Work />
           <Projects />
           <Contact />
-        </div>
+        </Container>
       )}
     </div>
   );
 }
+
+const loadItems = keyframes`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
+
+const Container = styled.div`
+  animation: ${loadItems} 0.5s linear 0s normal none;
+`;
+
+const slideUp = keyframes`
+  0% { 
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0%)
+  }
+  80% {
+    transform: translateY(-200%)
+  }
+`;
 
 const Loader = styled.div`
   position: absolute;
@@ -52,6 +77,7 @@ const Loader = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  animation: ${slideUp} 6s linear 0s infinite normal none;
 `;
 
 const rotate = keyframes`
