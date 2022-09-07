@@ -56,24 +56,26 @@ const Loader = styled.div`
 
 const rotate = keyframes`
   0% {
+    opacity: 0;
   }
   5% {
-      transform:  rotate(0deg);
+    opacity: 1;
+    transform:  rotate(0deg);
   }
   20% {
-      transform:  rotate(130deg);
+    transform:  rotate(130deg);
   }
   40% {
-      transform:  rotate(-360deg);
+    transform:  rotate(-360deg);
   }
   60% {
-      transform:  rotate(-720deg);
+    transform:  rotate(-720deg);
   }
   70% {
     transform:  rotate(-720deg);
   }
   100% {
-      transform:  rotate(-720deg);
+    transform:  rotate(-720deg);
   }
 `;
 
