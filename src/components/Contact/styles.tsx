@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import '@fontsource/montserrat';
 
-import { Flex, Text } from '@chakra-ui/react';
+import { Text, Flex } from '@chakra-ui/react';
 
 export const ContactContainer = styled(Flex)`
   position: relative;

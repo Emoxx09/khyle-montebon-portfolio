@@ -47,22 +47,21 @@ function Work() {
             <S.TypeTitle>Work Experience</S.TypeTitle>
             <S.InnerContainer>
               <S.Row>
-                <S.WorkplaceTitle as="b">
-                  Google Developer Student Clubs UIC
-                </S.WorkplaceTitle>
+                <S.WorkplaceTitle as="b">Awesome OS</S.WorkplaceTitle>
                 <S.Subtitle as="b">Davao, Philippines</S.Subtitle>
               </S.Row>
               <S.Row>
-                <S.Subtitle>Core Officer</S.Subtitle>
-                <S.Subtitle>Aug 2022 - Present</S.Subtitle>
+                <S.Subtitle>Software Engineer, Internship</S.Subtitle>
+                <S.Subtitle>Feb 2023 - May 2023</S.Subtitle>
+              </S.Row>
+              <br />
+              <S.Row>
+                <S.WorkplaceTitle as="b">WhyNotResults</S.WorkplaceTitle>
+                <S.Subtitle as="b">Phoenix, Arizona, United States</S.Subtitle>
               </S.Row>
               <S.Row>
-                <S.Subtitle>Chief Operations Officer</S.Subtitle>
-                <S.Subtitle>Apr 2021 - Aug 2022</S.Subtitle>
-              </S.Row>
-              <S.Row>
-                <S.Subtitle>Chief Executive Officer</S.Subtitle>
-                <S.Subtitle>Jul 2020 - Apr 2021</S.Subtitle>
+                <S.Subtitle>Web Developer, Part-time</S.Subtitle>
+                <S.Subtitle>Nov 2022 - Feb 2023</S.Subtitle>
               </S.Row>
               <br />
               <S.Row>
@@ -71,7 +70,7 @@ function Work() {
               </S.Row>
               <S.Row>
                 <S.Subtitle>Software Engineer, Internship</S.Subtitle>
-                <S.Subtitle>Jun 2022 - Present</S.Subtitle>
+                <S.Subtitle>Jun 2022 - Oct 2022</S.Subtitle>
               </S.Row>
               <br />
               <S.Row>
@@ -82,6 +81,26 @@ function Work() {
                 <S.Subtitle>Software Engineer, Internship</S.Subtitle>
                 <S.Subtitle>Feb 2022 - May 2022</S.Subtitle>
               </S.Row>
+              <br />
+              <S.Row>
+                <S.WorkplaceTitle as="b">
+                  Google Developer Student Clubs UIC
+                </S.WorkplaceTitle>
+                <S.Subtitle as="b">Davao, Philippines</S.Subtitle>
+              </S.Row>
+              <S.Row>
+                <S.Subtitle>Core Officer</S.Subtitle>
+                <S.Subtitle>Aug 2022 - May 2023</S.Subtitle>
+              </S.Row>
+              <S.Row>
+                <S.Subtitle>Chief Operations Officer</S.Subtitle>
+                <S.Subtitle>Apr 2021 - Aug 2022</S.Subtitle>
+              </S.Row>
+              <S.Row>
+                <S.Subtitle>Chief Executive Officer</S.Subtitle>
+                <S.Subtitle>Jul 2020 - Apr 2021</S.Subtitle>
+              </S.Row>
+              <br />
             </S.InnerContainer>
           </S.TypeContainer>
         </ChakraProvider>

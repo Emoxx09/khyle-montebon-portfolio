@@ -28,7 +28,7 @@ function Contact() {
             </S.IconContainer>
             <S.ChannelTitle>
               <a
-                href="https://www.linkedin.com/in/khyle-montebon-551583176/"
+                href="https://www.linkedin.com/in/khyle-aaron-montebon-551583176/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
