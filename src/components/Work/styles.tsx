@@ -76,6 +76,12 @@ export const Subtitle = styled(Text)`
   color: #525252;
 `;
 
+export const SubtitleClickable = styled.a`
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #525252;
+`;
+
 export const WorkDescription = styled(Text)`
   font-family: 'Montserrat';
   font-size: 16px;
