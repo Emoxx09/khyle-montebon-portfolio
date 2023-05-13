@@ -19,6 +19,25 @@ function Work() {
           </S.Container>
           <br />
           <S.TypeContainer>
+            <S.TypeTitle>Research Experience</S.TypeTitle>
+            <S.InnerContainer>
+              <S.Row>
+                <S.WorkplaceTitle as="b">
+                  AI and Cloud Computing Conference 2022
+                </S.WorkplaceTitle>
+                <S.Subtitle as="b">Osaka, Japan</S.Subtitle>
+              </S.Row>
+              <S.Row>
+                <S.Subtitle>Researcher</S.Subtitle>
+                <S.Subtitle>Oct 2021 - Nov 2021</S.Subtitle>
+              </S.Row>
+              <S.Subtitle>
+                DOI: https://dl.acm.org/doi/10.1145/3582099.3582118
+              </S.Subtitle>
+            </S.InnerContainer>
+          </S.TypeContainer>
+          <br />
+          <S.TypeContainer>
             <S.TypeTitle>Competition Experience</S.TypeTitle>
             <S.InnerContainer>
               <S.Row>
