@@ -4,7 +4,9 @@ import {
   SiFirebase,
   SiFlutter,
   SiKotlin,
+  SiReact,
   SiSqlite,
+  SiTypescript,
   SiUnity,
 } from 'react-icons/si';
 
@@ -23,6 +25,30 @@ function Projects() {
             either for the purpose of exercising my skills or creating solutions
             for its users' problems. Here are some of them.
           </S.Subtitle>
+          <S.ProjectContainer>
+            <S.ProjectDescriptionContainer>
+              <S.ProjectTitle as="b">AweQFy</S.ProjectTitle>
+              <S.Subtitle>
+                AweQFy is a Queueing Management System built for Awesome OS. It
+                was made to automate the queueing process for the applicants of
+                the company.
+              </S.Subtitle>
+              <S.TechContainer>
+                <S.IconContainer>
+                  <SiReact size={30} />
+                </S.IconContainer>
+                <S.IconContainer>
+                  <SiTypescript size={30} />
+                </S.IconContainer>
+                <S.IconContainer>
+                  <SiFirebase size={30} />
+                </S.IconContainer>
+              </S.TechContainer>
+            </S.ProjectDescriptionContainer>
+            <S.ProjectImageContainer>
+              <S.StyledImage src="/project0.png" alt="AweQFy" />
+            </S.ProjectImageContainer>
+          </S.ProjectContainer>
           <S.ProjectContainer>
             <S.ProjectImageContainer>
               <S.StyledImage src="/project1.png" alt="iBudget" />
