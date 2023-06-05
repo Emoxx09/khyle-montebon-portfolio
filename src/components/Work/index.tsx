@@ -70,6 +70,15 @@ function Work() {
             <S.TypeTitle>Work Experience</S.TypeTitle>
             <S.InnerContainer>
               <S.Row>
+                <S.WorkplaceTitle as="b">Freelance</S.WorkplaceTitle>
+                <S.Subtitle as="b">International</S.Subtitle>
+              </S.Row>
+              <S.Row>
+                <S.Subtitle>Software Engineer, Freelance</S.Subtitle>
+                <S.Subtitle>2020 - 2023</S.Subtitle>
+              </S.Row>
+              <br />
+              <S.Row>
                 <S.WorkplaceTitle as="b">Awesome OS</S.WorkplaceTitle>
                 <S.Subtitle as="b">Davao, Philippines</S.Subtitle>
               </S.Row>

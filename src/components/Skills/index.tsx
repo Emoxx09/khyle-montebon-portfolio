@@ -11,6 +11,15 @@ import {
   SiFirebase,
   SiPython,
   SiTensorflow,
+  SiExpress,
+  SiNodedotjs,
+  SiMysql,
+  SiPostgresql,
+  SiAmazonaws,
+  SiDocker,
+  SiKubernetes,
+  SiGit,
+  SiJest,
 } from 'react-icons/si';
 
 import { ChakraProvider } from '@chakra-ui/react';
@@ -62,6 +71,40 @@ function Skills() {
             </S.IconContainer>
             <S.IconContainer>
               <SiTensorflow size={100} />
+            </S.IconContainer>
+          </S.Skills>
+          <S.Skills>
+            <S.IconContainer>
+              <SiExpress size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiNodedotjs size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiMysql size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiPostgresql size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiAmazonaws size={100} />
+            </S.IconContainer>
+          </S.Skills>
+          <S.Skills>
+            <S.IconContainer>
+              <SiGooglecloud size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiKubernetes size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiDocker size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiGit size={100} />
+            </S.IconContainer>
+            <S.IconContainer>
+              <SiJest size={100} />
             </S.IconContainer>
           </S.Skills>
         </ChakraProvider>

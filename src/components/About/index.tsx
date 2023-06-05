@@ -13,15 +13,20 @@ function About() {
             <S.Subtitle>KHYLE AARON MONTEBON</S.Subtitle>
             <S.Title as="b">SOFTWARE ENGINEER</S.Title>
             <S.Subtitle>
-              I’m currently studying Computer Science at the University of the
-              Immaculate Conception. I indulge in creating applications that
-              solve real-world problems. Aside from creating software, I also do
-              research in the field of machine learning and do a little bit of
-              Game Development. Learn more about me!
+              As a young and passionate Software Engineer from the Philippines,
+              I indulge in creating applications that solve real-world problems.
+              Aside from software engineering, I also do research in the field
+              of machine learning and do some Game Development.
+            </S.Subtitle>
+            <br />
+            <S.Subtitle>
+              I recently graduated as Magna Cum Laude from the University of the
+              Immaculate Conception with a degree in Bachelor of Science in
+              Computer Science and I'm ready to take on the world!
             </S.Subtitle>
           </S.Container>
           <S.ImageContainer>
-            <S.StyledImage src="/profilePic.png" alt="Khyle Montebon" />
+            <S.StyledImage src="/pix.png" alt="Khyle Montebon" />
           </S.ImageContainer>
         </ChakraProvider>
       </S.AboutContainer>
