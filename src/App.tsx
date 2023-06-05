@@ -66,6 +66,12 @@ const slideUp = keyframes`
   }
 `;
 
+const fade = keyframes`
+  0% { opacity: 1; }
+  80% { opacity: 0.5; }
+  100% { opacity: 0; }
+`;
+
 const Loader = styled.div`
   position: absolute;
   top: 0px;
@@ -77,7 +83,7 @@ const Loader = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  animation: ${slideUp} 6s linear 0s infinite normal none;
+  animation: ${fade} 7s linear 0s infinite normal none;
 `;
 
 const rotate = keyframes`
