@@ -18,26 +18,6 @@ function Contact() {
           </S.Subtitle>
           <S.Container>
             <S.IconContainer>
-              <SiGmail size={20} />
-            </S.IconContainer>
-            <S.ChannelTitle>
-              <a href="mailto:khyle.emox@gmail.com">Gmail</a>
-            </S.ChannelTitle>
-            <S.IconContainer>
-              <SiLinkedin size={20} />
-            </S.IconContainer>
-            <S.ChannelTitle>
-              <a
-                href="https://www.linkedin.com/in/khyle-aaron-montebon-551583176/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Linkedin
-              </a>
-            </S.ChannelTitle>
-          </S.Container>
-          <S.Container>
-            <S.IconContainer>
               <SiTwitter size={20} />
             </S.IconContainer>
             <S.ChannelTitle>
@@ -61,6 +41,26 @@ function Contact() {
                 Github
               </a>
             </S.ChannelTitle>
+          </S.Container>
+          <S.Container>
+            <S.IconContainer>
+              <SiGmail size={20} />
+            </S.IconContainer>
+            <S.ChannelTitle>
+              <a href="mailto:khyle.emox@gmail.com">Gmail</a>
+            </S.ChannelTitle>
+            {/* <S.IconContainer>
+              <SiLinkedin size={20} />
+            </S.IconContainer> */}
+            {/* <S.ChannelTitle>
+              <a
+                href="https://www.linkedin.com/in/khyle-aaron-montebon-551583176/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Linkedin
+              </a>
+            </S.ChannelTitle> */}
           </S.Container>
         </ChakraProvider>
       </S.ContactContainer>
