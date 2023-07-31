@@ -29,7 +29,7 @@ function Work() {
               </S.Row>
               <S.Row>
                 <S.Subtitle>Researcher</S.Subtitle>
-                <S.Subtitle>Oct 2021 - Nov 2021</S.Subtitle>
+                <S.Subtitle>Oct 2022 - Nov 2022</S.Subtitle>
               </S.Row>
               <S.SubtitleClickable
                 href="https://dl.acm.org/doi/10.1145/3582099.3582118"
