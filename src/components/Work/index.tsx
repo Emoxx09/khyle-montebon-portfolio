@@ -75,7 +75,7 @@ function Work() {
               </S.Row>
               <S.Row>
                 <S.Subtitle>Software Engineer, Freelance</S.Subtitle>
-                <S.Subtitle>2020 - 2023</S.Subtitle>
+                <S.Subtitle>2020 - 2024</S.Subtitle>
               </S.Row>
               <br />
               <S.Row>
