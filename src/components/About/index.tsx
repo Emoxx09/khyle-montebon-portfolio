@@ -20,9 +20,9 @@ function About() {
             </S.Subtitle>
             <br />
             <S.Subtitle>
-              I recently graduated as Magna Cum Laude from the University of the
+              I graduated as Magna Cum Laude from the University of the
               Immaculate Conception with a degree in Bachelor of Science in
-              Computer Science and I'm ready to take on the world!
+              Computer Science. Now, I'm always ready to take on the world!
             </S.Subtitle>
           </S.Container>
           <S.ImageContainer>

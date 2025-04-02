@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { ChakraProvider, Spacer } from '@chakra-ui/react';
+import { ChakraProvider, Spacer } from "@chakra-ui/react";
 
-import * as S from './styles';
+import * as S from "./styles";
 
 function Work() {
   return (
@@ -46,6 +46,17 @@ function Work() {
             <S.InnerContainer>
               <S.Row>
                 <S.WorkplaceTitle as="b">
+                  CODEBREAK: AI Beach Hackathon
+                </S.WorkplaceTitle>
+                <S.Subtitle as="b">Philippines</S.Subtitle>
+              </S.Row>
+              <S.Row>
+                <S.Subtitle>Team Lead, Developer, & Pitcher</S.Subtitle>
+                <S.Subtitle>Mar 2025</S.Subtitle>
+              </S.Row>
+              <br />
+              <S.Row>
+                <S.WorkplaceTitle as="b">
                   FWD Springboard Student Challenge
                 </S.WorkplaceTitle>
                 <S.Subtitle as="b">International</S.Subtitle>
@@ -75,7 +86,7 @@ function Work() {
               </S.Row>
               <S.Row>
                 <S.Subtitle>Software Engineer, Freelance</S.Subtitle>
-                <S.Subtitle>2020 - 2024</S.Subtitle>
+                <S.Subtitle>2020 - 2025</S.Subtitle>
               </S.Row>
               <br />
               <S.Row>
